@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Flight booking suite]">
+  <test name="One way test">
+    <classes>
+      <class name="com.lufthansa.flights.Booking">
+        <methods>
+          <include name="oneWaytest"/>
+          <exclude name="roundTripTest"/>
+        </methods>
+      </class> <!-- com.lufthansa.flights.Booking -->
+    </classes>
+  </test> <!-- One way test -->
+</suite> <!-- Failed suite [Flight booking suite] -->

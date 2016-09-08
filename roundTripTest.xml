@@ -1,0 +1,21 @@
+<suite name="Flight booking test suite">
+	
+	<test name="One way test">
+		
+		<classes>
+		
+			<class name="com.lufthansa.flights.Booking" />
+			
+			<methods>
+				<include name="roundTripTest" />
+				<exclude name ="oneWayTest" />
+			</methods>
+
+
+		</classes>
+
+
+	</test>
+
+
+</suite>
